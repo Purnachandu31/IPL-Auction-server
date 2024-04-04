@@ -35,6 +35,10 @@ async function connectDB() {
   // Call connectDB function
   connectDB();
 
+  app.get('/',(req,res)=>{
+    res.send("hello Purna Chandu");
+  })
+
 // Create User model and schema
 
 
